@@ -97,7 +97,7 @@ class AppThuKinh extends Component {
                 ></img>
                 <div className={`${style.overlay}`}>
                   <h5 className="text-primary">{name}</h5>
-                  <p>{descr}</p>
+                  <p className={`${style.descrP}`}>{descr}</p>
                 </div>
               </div>
               <div className="col-6">

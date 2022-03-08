@@ -33,7 +33,14 @@
   width: 25%;
   position: absolute;
   top: 25%;
-  opacity: .7;
+  opacity: 0.7;
   left: 50%;
   transform: translateX(-50%);
+}
+
+.descrP {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
