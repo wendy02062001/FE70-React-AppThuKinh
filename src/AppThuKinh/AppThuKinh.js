@@ -77,6 +77,7 @@ class AppThuKinh extends Component {
           background: "url(./img/background.jpg), no-repeat, center",
           backgroundSize: "cover",
           position: "relative",
+          minHeight: "100vh",
         }}
       >
         <div className={`${style.appContent}`}>
