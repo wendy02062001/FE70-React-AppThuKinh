@@ -22,7 +22,7 @@ class AppThuKinh extends Component {
     {
       id: 3,
       name: "Gunmetal Blue",
-      descr: "Gunmetal sunglasses full rim round.",
+      descr: "Gunmetal sunglasses full rim round. New model of the year.",
     },
 
     {
@@ -86,10 +86,10 @@ class AppThuKinh extends Component {
           </h3>
           <div className="container py-4">
             <div className="row text-center mt-4">
-              <div className="col-6">
+              <div className="col-lg-6 col-sm-6 col-xs-12 mb-4">
                 <img
                   src="./img/model.jpg"
-                  className="w-50"
+                  className="w-75"
                   style={{ position: "relative" }}
                 />
                 <img
@@ -97,12 +97,14 @@ class AppThuKinh extends Component {
                   className={`${style.glassImg}`}
                 ></img>
                 <div className={`${style.overlay}`}>
-                  <h5 className="text-primary">{name}</h5>
+                  <h5 className="text-primary mt-2" style={{ fontSize: "1.8vw" }}>
+                    {name}
+                  </h5>
                   <p className={`${style.descrP}`}>{descr}</p>
                 </div>
               </div>
-              <div className="col-6">
-                <img src="./img/model.jpg" className="w-50" />
+              <div className="col-lg-6 col-sm-6 col-xs-12">
+                <img src="./img/model.jpg" className="w-75" />
               </div>
             </div>
             <GlassesList arrGlasses={this.arrGlasses} />
